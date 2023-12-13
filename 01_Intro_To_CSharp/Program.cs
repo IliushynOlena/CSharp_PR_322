@@ -8,7 +8,7 @@ namespace _01_Intro_To_CSharp
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Hello,\n\tWorld!");
             Console.Write("Hello, World!");
@@ -20,16 +20,16 @@ namespace _01_Intro_To_CSharp
 
             int number = int.Parse(str);
             Console.WriteLine(str + "!!!");
-            Console.WriteLine(number + 100);
+            Console.WriteLine((number + 100).ToString());
             Console.WriteLine("Entered number " + number + 10 + "!!!");
             Console.WriteLine("Entered number " + (number + 10) + "!!!");
             Console.WriteLine($"Entered number : {number + 5} !!!");
 
-            //int a = 0;//not nullable type
-            //string strName = null;//nullable type
+            int a = 0;//not nullable type
+            string strName = null;//nullable type
            
-            ////int c= null;
-            ////Nullable<int> c = null;
+            //int c= null;
+            Nullable<int> c = null;
             //int? c = null;
             //c = 100;
             //int b = 15;
@@ -44,8 +44,8 @@ namespace _01_Intro_To_CSharp
           Console.WriteLine($"ToLongTimeString : {now.ToLongTimeString()}");
           Console.WriteLine($"ToLongDateString : {now.ToLongDateString()}");
           Console.WriteLine($"Custom : {now.ToString("yyyy-MM-dd")}");
-            */
-            /*
+            
+            
             int a = 5;
             float d = a;//5.0000000
             //explicit
@@ -82,8 +82,8 @@ namespace _01_Intro_To_CSharp
               Console.WriteLine(random.Next(-10,10));
           }
           Console.WriteLine(random.Next());//0....maxInt
-          Console.WriteLine(random.Next(100));//0....100
-          Console.WriteLine(random.Next(100, 500));//100....500
+          Console.WriteLine(random.Next(100));//0....99
+          Console.WriteLine(random.Next(100, 500));//100....499
           Console.WriteLine(random.NextDouble());//0....1
 
           if(3 > 8)
@@ -104,15 +104,15 @@ namespace _01_Intro_To_CSharp
           //} while (true);
          // Console.BackgroundColor = ConsoleColor.Green;
           Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.BackgroundColor = ConsoleColor.Cyan;
+          Console.BackgroundColor = ConsoleColor.Cyan;
           bool myBool = true;
           bool myBool1 = false;
           short myShort = 6;
           //implicit
           int myInt = myShort;//short - int
 
-          float f1 = 4.5F;//8
-          int i1 = 44;//
+          float f1 = 4.5f;//8
+          int i1 = 44;//f
           float f2 = f1 + i1;//48.5
           double d1 = f2;//48.500000000000000000
           //int i2 = f2;//48//error
@@ -144,7 +144,7 @@ namespace _01_Intro_To_CSharp
           Console.WriteLine("Continue...............");
           Console.WriteLine("Continue...............");
           Console.WriteLine("Continue...............");
-          */
+          
             /////////////////////// Invoke Methods
             //Literals();
             //FormatString();
