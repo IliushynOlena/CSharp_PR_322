@@ -412,6 +412,7 @@ namespace _02_Array
             double res = (new Random().Next(100) + new Random().NextDouble());
             res = Math.Round(res, 2);
             Console.WriteLine(res); 
+            
             #endregion
         }
 
