@@ -11,7 +11,7 @@ namespace _05_IntroToOOP
     - internal
      
      */
-    class MyClass :Object
+    class MyClass //: Object
     {
         //private
         private int number;
@@ -46,18 +46,16 @@ namespace _05_IntroToOOP
         //private string name;
         //public string Name
         //{
-        //    get 
-        //    { 
+        //    get
+        //    {
         //        return name;
         //    }
-        //    set 
-        //    { 
+        //    set
+        //    {
         //        name = value;
         //    }
         //}
-
-
-
+        //FULL- property
         private int _xCoord;
         public int XCoord//value
         {
@@ -114,8 +112,7 @@ namespace _05_IntroToOOP
         }
     }
     internal class Program
-    {
-        
+    {        
         static void Main(string[] args)
         {
             //Console.SetCursorPosition(10, 10);
@@ -129,7 +126,7 @@ namespace _05_IntroToOOP
             Console.WriteLine($"Y = {p.getY()}"  );
             //XCoord = value
             p.XCoord = 5; //setter
-            int x = p.XCoord;
+            int x = p.XCoord;//getter
             Console.WriteLine(x);//getter
             p.Name = "2D_Point";//setter
             Console.WriteLine(p.Name);//getter
@@ -138,12 +135,12 @@ namespace _05_IntroToOOP
 
             p.PrintWithSetPosition();
 
-           // MyClass @class = new MyClass();
-           //MyClass @int = new MyClass();
-           //MyClass @float = new MyClass();
+            //MyClass @class = new MyClass();
+            //MyClass @int = new MyClass();
+            //MyClass @float = new MyClass();
 
-           // @class.Print();
-           // Console.WriteLine(@class.ToString());
+            // @class.Print();
+            // Console.WriteLine(@class.ToString());
         }
     }
 }
