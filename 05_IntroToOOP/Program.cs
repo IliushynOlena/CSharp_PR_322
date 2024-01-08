@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System.Reflection.Metadata;
+using System.Xml.Linq;
 
 namespace _05_IntroToOOP
 {
@@ -38,10 +39,11 @@ namespace _05_IntroToOOP
     }
     partial class Point
     {
+        private int number;
         //Auto-property   prop+Tab
         public string Name { get; set; }
         public string Type { get; }//readonly
-        //==========
+                                   //=========
         //FULL- property
         //private string name;
         //public string Name
@@ -117,6 +119,12 @@ namespace _05_IntroToOOP
         {
             //Console.SetCursorPosition(10, 10);
             Point p = new Point(5,9);  
+
+            p.SetX(5);
+            p.getX();
+            p.XCoord = 5;//setter
+            p.XCoord = 10;//setter
+            int x = p.XCoord;//get
             p.Print();
             Console.WriteLine(p);
             p.SetX(10);

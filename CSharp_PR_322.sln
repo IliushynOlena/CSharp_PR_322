@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_StringBuilder", "04_Stri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_IntroToOOP", "05_IntroToOOP\05_IntroToOOP.csproj", "{F2544329-E0AE-42FC-A1CE-59C26BB79E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_StructClass", "06_StructClass\06_StructClass.csproj", "{0458C8BD-FE2D-4382-B767-6BD39531DA1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_StructClass", "06_StructClass\06_StructClass.csproj", "{0458C8BD-FE2D-4382-B767-6BD39531DA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_OverloadOperators", "07_OverloadOperators\07_OverloadOperators.csproj", "{44EEC49D-AE8A-47FD-8D19-3943FE03A59C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0458C8BD-FE2D-4382-B767-6BD39531DA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0458C8BD-FE2D-4382-B767-6BD39531DA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0458C8BD-FE2D-4382-B767-6BD39531DA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EEC49D-AE8A-47FD-8D19-3943FE03A59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EEC49D-AE8A-47FD-8D19-3943FE03A59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EEC49D-AE8A-47FD-8D19-3943FE03A59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EEC49D-AE8A-47FD-8D19-3943FE03A59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
