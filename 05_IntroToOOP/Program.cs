@@ -73,6 +73,7 @@ namespace _05_IntroToOOP
                     _xCoord = 0;
             }
         }
+        private int valueNum;
         //full property  propfull+Tab
         private int yCoord;
         public int YCoord
