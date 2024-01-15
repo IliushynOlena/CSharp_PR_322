@@ -28,7 +28,7 @@
         {
             return $"Name : {name}. Birthday : {birthday.ToShortDateString()}";
         }
-        public abstract void DoWork();
+       public abstract void DoWork();
     }
     //class Name : BaseClass, Interface1, Interface2, 
     class Worker : Person//public Person

@@ -44,7 +44,7 @@ namespace _05_IntroToOOP
         public string Name { get; set; }
         public string Type { get; }//readonly
                                    //=========
-        //FULL- property
+                                   //FULL- property
         //private string name;
         //public string Name
         //{
