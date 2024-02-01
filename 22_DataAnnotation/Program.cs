@@ -15,9 +15,11 @@ namespace _22_DataAnnotation
         [Required(ErrorMessage = "Age not setted")]
         [Range(1,120,ErrorMessage ="Error age")]
         public int Age { get; set; }//333
-        [Phone]
+        //[Phone]
+        [RegularExpression(@"\+38\(0\d{2}\)\d{3}\-\d{2}\-\d{2}|\+380\d{9}")]
         public string Phone { get; set; }//+3806968854444
-        [EmailAddress]
+                                         //[EmailAddress]
+        [RegularExpression(@"\w{4,}\@\w+\.\w+")]
         public string Email { get; set; }//"slfnsdghoasdhgosdhl"
         [Required]
         public string Login { get; set; }
